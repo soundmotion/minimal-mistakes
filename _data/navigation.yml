@@ -1,12 +1,49 @@
-# main links
+# example navigation
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "mySoundMotion"
+    url: /mysoundmotion/  
+  - title: "instruments"
+    url: /instruments/
+  - title: "main video chat"
+    url: https://appr.tc/r/soundmotion0
+# main links
+my2:
+  - title: "mySoudMotion"
+    children:
+      - title: "edit mySoundMotion page"
+        url: /editor/
+      - title: "my info"
+        url: /form-personal/
+      - title: "video chat"
+        url: https://appr.tc/r/soundmotion0
+      - title: "login"
+        url: /login/
+
+# main links
+my:
+  - title: "mySoudMotion"
+    children:
+      - title: "edit mySoundMotion page"
+        url: /editor/
+      - title: "my info"
+        url: /form-personal/
+      - title: "video chat"
+        url: https://appr.tc/r/soundmotion1
+      - title: "video chat2"
+        url: https://appr.tc/r/soundmotion2
+      - title: "login"
+        url: /login?logout=true
+    
+old:    
+  - title: "Parent Page C"
+    children:
+      - title: "Child Page C1"
+        url: /
+      - title: "Child Page C2"
+        url: /
+  - title: "Parent Page D"
+    children:
+      - title: "Child Page D1"
+        url: /
+      - title: "Child Page D2"
+        url: /
