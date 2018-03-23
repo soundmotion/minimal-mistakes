@@ -2,7 +2,7 @@
 title: "mySoundMotion"
 sitemap: false
 permalink: /mysoundmotion/
-layout: splash
+layout: mysoundmotion
 sidebar:
   nav: "my"
 ---
@@ -10,11 +10,6 @@ sidebar:
 # Titolo 
 This is a C major chord:
 
-```lilypond
-\relative {
-  <c' e g>
-}
-```
 
-
+wow2
 

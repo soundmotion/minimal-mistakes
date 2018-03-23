@@ -2,12 +2,13 @@
 
 Matteo Pedani:
   name        : "Matteo Pedani"
-  uri         : "http://thewhip.com"
-  email       : "billy@rick.com"
+  uri         : "https://pedani.it"
+  email       : "matteo@pedani.it"
   bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/assets/images/bio-photo-2.jpg"
-  twitter     : "extravagantman"
-  google_plus : "BillyRick"
+  avatar      : ""
+  twitter     : "matteopedani"
+  google_plus : "matteopedani"
+  soundmotion : "matteopedani"
 
 Cornelius Fiddlebone:
   name        : "Cornelius Fiddlebone"
@@ -16,3 +17,13 @@ Cornelius Fiddlebone:
   avatar      : "/assets/images/bio-photo.jpg"
   twitter     : "rhymeswithsackit"
   google_plus : "CorneliusFiddlebone"
+#
+Billy Rick:
+  name: "Billy Rick"
+  uri: "http://thewhip.com"
+  email: "billy@rick.com"
+  bio: "What do you want, jewels? I am a very extravagant man."
+  avatar: "/assets/images/bio-photo-2.jpg"
+  twitter: "extravagantman"
+
+#

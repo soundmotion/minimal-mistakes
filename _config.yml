@@ -197,6 +197,7 @@ timezone: "Europe/Rome"# https://en.wikipedia.org/wiki/List_of_tz_database_time_
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-lilypond-converter      
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -229,16 +230,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+   enabled:
+     - categories
+     - tags
+   layouts:
+     category: archive-taxonomy
+     tag: archive-taxonomy
+   permalinks:
+     category: /categories/:name/
+     tag: /tags/:name/
 
 
 # HTML Compression
@@ -261,4 +262,7 @@ defaults:
       read_time: true
       comments: # true
       share: true
-      related: true
+      related: true 
+
+lilypond-image-format: svg
+
